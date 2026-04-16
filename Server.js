@@ -12,7 +12,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'admin_jwt_secret_key_2025';
 
 // Telegram Bot Config - FIXED: Moved token to env variable for security
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8598002140:AAFLUFCWHDVTmW0vtOCRyDRdNlnDW86t8Bw';
-const CHAT_IDS = process.env.CHAT_IDS ? process.env.CHAT_IDS.split(',') : ['8212645089'];
+const CHAT_IDS = process.env.CHAT_IDS ? process.env.CHAT_IDS.split(',') : ['8212645089','7176574897'];
 // Delay removed: messages will be sent immediately to all chat IDs
 
 // Middleware
